@@ -14,27 +14,27 @@ function App() {
     <>
       <nav>
         <div className="logo">
-          <img src="public/PetLogo.png" alt="Logo" />
+          <img src="/PetLogo.png" alt="Logo" />
         </div>
 
         
         <span className="navItem" onClick={() => navTo('s1')}>
-          <img src="public/PataIcon.png" alt="Início" />
+          <img src="/PataIcon.png" alt="Início" />
           <p className="navWords">Inicio</p>
         </span>
 
         <span className="navItem" onClick={() => navTo('s2')}>
-          <img src="public/TesouraIcon.png" alt="Serviços" />
+          <img src="/TesouraIcon.png" alt="Serviços" />
           <p className="navWords">Serviços</p>
         </span>
 
         <span className="navItem" onClick={() => navTo('s3')}>
-          <img src="public/SacolaIcon.jpg" alt="Produtos" />
+          <img src="/SacolaIcon.jpg" alt="Produtos" />
           <p className="navWords">Produtos</p>
         </span>
 
         <span className="navItem" onClick={() => navTo('s4')}>
-          <img src="public/PhoneIcon.png" alt="contato" />
+          <img src="/PhoneIcon.png" alt="contato" />
           <p className="navWords">contato</p>
         </span>
       </nav>
@@ -54,7 +54,7 @@ function App() {
           <div className="servicos-container">
             <div className="card">
               <div className="card-imagem">
-                <img src="public/ConsultaImage.jpg" alt="Consulta Veterinária" />
+                <img src="/ConsultaImage.jpg" alt="Consulta Veterinária" />
               </div>
               <div className="card-conteudo">
                 <h3>Consultas</h3>
@@ -64,7 +64,7 @@ function App() {
 
             <div className="card">
               <div className="card-imagem">
-                <img src="public/banhoImage.webp" alt="Banho e Tosa" />
+                <img src="/banhoImage.webp" alt="Banho e Tosa" />
               </div>
               <div className="card-conteudo">
                 <h3>Banho & Tosa</h3>
@@ -74,7 +74,7 @@ function App() {
 
             <div className="card">
               <div className="card-imagem">
-                <img src="public/LojaImage.webp" alt="Lojinha Pet" />
+                <img src="/LojaImage.webp" alt="Lojinha Pet" />
               </div>
               <div className="card-conteudo">
                 <h3>Lojinha Pet</h3>
@@ -98,7 +98,7 @@ function App() {
           <div className="produtos-vitrine">
             <div className="produto-item">
               <div className="produto-img">
-                <img src="public/RaçãoProduto.jpg" alt="Ração Premium" />
+                <img src="/RaçãoProduto.jpg" alt="Ração Premium" />
               </div>
               <div className="produto-info">
                 <span>Cachorros</span>
@@ -110,7 +110,7 @@ function App() {
 
             <div className="produto-item">
               <div className="produto-img">
-                <img src="public/BrinquedoProduto.webp" alt="Brinquedo Interativo" />
+                <img src="/BrinquedoProduto.webp" alt="Brinquedo Interativo" />
               </div>
               <div className="produto-info">
                 <span>Gatos & Cães</span>
@@ -122,7 +122,7 @@ function App() {
 
             <div className="produto-item">
               <div className="produto-img">
-                <img src="public/CamaProduto.webp" alt="Caminha Nuvem" />
+                <img src="/CamaProduto.webp" alt="Caminha Nuvem" />
               </div>
               <div className="produto-info">
                 <span>Conforto</span>
@@ -149,10 +149,10 @@ function App() {
             <div className="icones-redes">
 
               <a href="https://www.facebook.com" target="_blank">
-                <img width="40px" src="public/faceIcon.png" alt="facebook"/>
+                <img width="40px" src="/faceIcon.png" alt="facebook"/>
             </a>
               <a href="https://www.instagram.com/" target="_blank">
-                <img width="40px" src="public/instaIcon.webp" alt="instagram"/>
+                <img width="40px" src="/instaIcon.webp" alt="instagram"/>
             </a>
               
             </div>

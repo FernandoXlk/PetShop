@@ -72,7 +72,7 @@ nav {
 }
 
 .s1 {
-  background-image: url(../public/PetBanner.png);
+  background-image: url(/PetBanner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -373,7 +373,7 @@ nav {
   }
 
    .s1 {
-    background-image: url(../public/Bgmoba.png);
+    background-image: url(/public/Bgmoba.png);
   }
 }
 
